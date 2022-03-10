@@ -20,8 +20,8 @@ function App() {
 
   return (
     <div className="App">
-      <ButtonUseRef text={"Open useRef"} openModal={openModal} />
-      <ButtonUseState text={"Open useState"} setStyle={setStyle} />
+      <ButtonUseRef text={"Open use-Ref"} openModal={openModal} />
+      <ButtonUseState text={"Open use-State"} setStyle={setStyle} />
       <Modal ref={modalRef} closeModal={closeModal} modalStyle={modalStyle} />
     </div>
   );
